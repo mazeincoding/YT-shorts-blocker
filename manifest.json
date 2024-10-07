@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "YT Shorts Blocker",
+  "version": "1.0",
+  "description": "Prevents you from scrolling YouTube shorts.",
+  "permissions": ["tabs", "webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
