@@ -55,7 +55,7 @@ Found a bug or want to suggest a feature? Please open an issue or submit a pull 
 
 ## License
 
-[MIT License](LICENSE)
+MIT License
 
 ## Disclaimer
 
